@@ -60,7 +60,7 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - Bash (Workflow scripting and automation)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - [MultiQC](https://multiqc.info/)  
-- [BWA](http://bio-bwa.sourceforge.net/)(https://github.com/bwa-mem2/bwa-mem2)
+- [BWA](https://github.com/bwa-mem2/bwa-mem2)
 - [Samtools](http://www.htslib.org/)
 - [BCFtools](http://www.htslib.org/doc/bcftools.html)
 
