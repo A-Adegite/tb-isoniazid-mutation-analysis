@@ -8,6 +8,7 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
 ```
 .
 ├── README.md                    # Project overview and usage instructions
+├── .gitignore                   # Specifies intentionally untracked files
 ├── environment.yml              # Conda environment file 
 ├── data/                        # Input data (not uploaded)
 │   ├── raw_reads/               # Raw FASTQ files
@@ -122,7 +123,7 @@ bash scripts/variant_calling.sh
 
 ## 📦 Data Access
 
-Due to GitHub file size restrictions, input FASTQ files, reference genome files, and intermediate outputs are **not included** in this repository.
+Due to GitHub file size restrictions, input FASTQ files and intermediate outputs are **not included** in this repository.
 
 To obtain the required data:
 
