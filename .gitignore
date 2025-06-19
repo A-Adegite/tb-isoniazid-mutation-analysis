@@ -1,0 +1,27 @@
+# Ignore contents of raw/repaired/trimmed reads
+data/raw_reads/*
+data/repaired_reads/*
+data/trimmed_reads/*
+
+# Keep .gitkeep files
+!data/raw_reads/.gitkeep
+!data/repaired_reads/.gitkeep
+!data/trimmed_reads/.gitkeep
+
+# Ignore contents of mapping outputs
+mapping/bam_sorted/*
+mapping/bam_dedup/*
+mapping/bam_stats/*
+!mapping/bam_sorted/.gitkeep
+!mapping/bam_dedup/.gitkeep
+!mapping/bam_stats/.gitkeep
+
+# Ignore contents of qc_reports
+qc_reports/raw_reads/*
+qc_reports/trimmed_reads/*
+!qc_reports/raw_reads/.gitkeep
+!qc_reports/trimmed_reads/.gitkeep
+
+# Ignore variant_calls content
+variant_calls/*
+!variant_calls/.gitkeep
