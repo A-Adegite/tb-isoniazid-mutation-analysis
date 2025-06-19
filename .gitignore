@@ -9,6 +9,8 @@ data/trimmed_reads/*
 !data/trimmed_reads/.gitkeep
 
 # Ignore contents of mapping outputs
+mapping/*.bam
+mapping/*.sam
 mapping/bam_sorted/*
 mapping/bam_dedup/*
 mapping/bam_stats/*
