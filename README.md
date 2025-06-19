@@ -60,6 +60,7 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 
 - Bash (Workflow scripting and automation)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
+- [BBTools](https://archive.jgi.doe.gov/data-and-tools/software-tools/bbtools/)
 - [MultiQC](https://multiqc.info/)  
 - [BWA](https://github.com/bwa-mem2/bwa-mem2)
 - [Samtools](http://www.htslib.org/)
@@ -114,7 +115,7 @@ bash scripts/map_reads.sh
 bash scripts/sort_dedup.sh
 
 # Step 7: Call variants using BCFtools
-bash scripts/variant_calling.sh
+bash scripts/variant_call.sh
 ```
 
 > ⚠️ Ensure that all required tools are installed and accessible in your system's `$PATH`.
