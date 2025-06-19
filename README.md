@@ -25,13 +25,12 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
 │   └── trimmed_reads/
 │
 ├── scripts/                     # Bash scripts for each pipeline step
-│   ├── download_data.sh
-│   ├── qc_raw_reads.sh
+│   ├── download_raw_reads.sh
 │   ├── trim_reads.sh
-│   ├── qc_trimmed_reads.sh
+│   ├── repair_reads.sh
 │   ├── map_reads.sh  
 │   ├── sort_dedup.sh
-│   ├── variant_calling.sh
+│   ├── variant_call.sh
 │   └── ...
 │
 ├── variant_calls/               # VCF and BCF files from variant calling
@@ -61,7 +60,7 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - Bash (Workflow scripting and automation)
 - [FastQC](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/)
 - [MultiQC](https://multiqc.info/)  
-- [BWA](http://bio-bwa.sourceforge.net/)
+- [BWA](http://bio-bwa.sourceforge.net/)(https://github.com/bwa-mem2/bwa-mem2)
 - [Samtools](http://www.htslib.org/)
 - [BCFtools](http://www.htslib.org/doc/bcftools.html)
 
@@ -98,15 +97,16 @@ chmod a+x scripts/*.sh
 bash scripts/download_data.sh
 
 # Step 2: Run FastQC on raw reads
-bash scripts/qc_raw_reads.sh
 
 # Step 3: Trim adapters and low-quality reads
 bash scripts/trim_reads.sh
 
 # Step 4: Run FastQC on trimmed reads
-bash scripts/qc_trimmed_reads.sh
 
-# Step 5: Map reads to reference genome using BWA
+# Step 5: Repair disordered reads
+bash scripts/repair_reads.sh
+
+# Step 5: Map reads to reference genome using BWA-MEM2
 bash scripts/map_reads.sh
 
 # Step 6: Sort and deduplicate BAM files using Samtools
