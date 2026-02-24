@@ -1,44 +1,53 @@
-[2025-05-30 11:45:47,423] root                                               [DEBUG  ]  Logging to file: /tmp/tmp9044e7q9/multiqc.log
-[2025-05-30 11:45:47,426] multiqc.core.update_config                         [DEBUG  ]  This is MultiQC v1.29
-[2025-05-30 11:45:47,426] multiqc.core.update_config                         [DEBUG  ]  Running Python 3.13.3 | packaged by conda-forge | (main, Apr 14 2025, 20:44:03) [GCC 13.3.0]
-[2025-05-30 11:45:47,431] urllib3.connectionpool                             [DEBUG  ]  Starting new HTTPS connection (1): api.multiqc.info:443
-[2025-05-30 11:45:48,273] urllib3.connectionpool                             [DEBUG  ]  https://api.multiqc.info:443 "GET /version?version_multiqc=1.29&version_python=3.13.3&operating_system=Linux&is_docker=False&is_singularity=False&is_conda=True&is_ci=False&is_notebook=False&ai_summary=False&ai_summary_full=False&ai_provider=seqera HTTP/1.1" 200 178
-[2025-05-30 11:45:48,275] multiqc.core.version_check                         [DEBUG  ]  Latest MultiQC version is v1.29, released 2025-05-22
-[2025-05-30 11:45:48,276] multiqc.multiqc                                    [DEBUG  ]  Working dir : /home/a_adegite/Genomics/projects/tb_genomics/QC_reports
-[2025-05-30 11:45:48,276] multiqc.multiqc                                    [DEBUG  ]  Template    : default
-[2025-05-30 11:45:48,277] multiqc.multiqc                                    [DEBUG  ]  Command used: /home/a_adegite/miniconda3/envs/tb_genomics/bin/multiqc .
-[2025-05-30 11:45:48,277] multiqc.core.file_search                           [INFO   ]  Search path: /home/a_adegite/Genomics/projects/tb_genomics/QC_reports
-[2025-05-30 11:45:48,279] multiqc.core.file_search                           [DEBUG  ]  Analysing modules: bases2fastq, cellranger_arc, cells2stats, custom_content, ccs, ngsderive, purple, conpair, isoseq, lima, peddy, percolator, haplocheck, somalier, methylqa, mosdepth, phantompeakqualtools, qualimap, bamdst, preseq, hifiasm, quast, qorts, rna_seqc, rockhopper, rsem, rseqc, busco, checkm, bustools, goleft_indexcov, gffcompare, disambiguate, supernova, deeptools, sargasso, verifybamid, mirtrace, happy, mirtop, glimpse, gopeaks, homer, hops, macs2, theta2, snpeff, gatk, htseq, bcftools, featurecounts, fgbio, dragen, dragen_fastqc, dedup, pbmarkdup, damageprofiler, mapdamage, biobambam2, jcvi, mtnucratio, picard, vep, bakta, prokka, checkm2, qc3C, nanoq, nanostat, samblaster, samtools, bamtools, sambamba, ngsbits, pairtools, sexdeterrmine, seqera_cli, eigenstratdatabasetools, jellyfish, vcftools, longranger, stacks, varscan2, snippy, umicollapse, umitools, truvari, megahit, ganon, gtdbtk, bbmap, bismark, biscuit, diamond, hicexplorer, hicup, hicpro, salmon, kallisto, slamdunk, star, hisat2, tophat, bowtie2, bowtie1, hostile, cellranger, snpsplit, odgi, vg, pangolin, nextclade, freyja, humid, kat, leehom, librarian, nonpareil, adapterremoval, bbduk, clipandmerge, cutadapt, flexbar, sourmash, kaiju, kraken, malt, motus, trimmomatic, sickle, skewer, sortmerna, biobloomtools, fastq_screen, afterqc, fastp, fastqc, sequali, filtlong, prinseqplusplus, pychopper, porechop, pycoqc, minionqc, anglerfish, multivcfanalyzer, clusterflow, checkqc, bcl2fastq, bclconvert, interop, ivar, flash, seqyclean, optitype, whatshap, spaceranger, xenome, xengsort, metaphlan, seqwho, telseq, ataqv, mgikit, mosaicatcher, software_versions
-[2025-05-30 11:45:48,280] multiqc.core.file_search                           [DEBUG  ]  Search keys: adapterremoval, afterqc, anglerfish, ataqv, bakta, bamdst, bamtools, bases2fastq, bbduk, bbmap, bcftools, bcl2fastq, bclconvert, biobambam2, biobloomtools, biscuit, bismark, bowtie1, bowtie2, busco, bustools, ccs, cellranger, cellranger_arc, cells2stats, checkm, checkm2, checkqc, clipandmerge, clusterflow, conpair, custom_content, cutadapt, damageprofiler, dedup, deeptools, diamond, disambiguate, dragen, dragen_fastqc, eigenstratdatabasetools, fastp, fastq_screen, fastqc, featurecounts, fgbio, filtlong, flash, flexbar, freyja, ganon, gatk, gffcompare, glimpse, goleft_indexcov, gopeaks, gtdbtk, haplocheck, happy, hicexplorer, hicpro, hicup, hifiasm, hisat2, homer, hops, hostile, htseq, humid, interop, isoseq, ivar, jcvi, jellyfish, kaiju, kallisto, kat, kraken, leehom, librarian, lima, longranger, macs2, malt, mapdamage, megahit, metaphlan, methylqa, mgikit, minionqc, mirtop, mirtrace, mosaicatcher, mosdepth, motus, mtnucratio, multiqc_data, multivcfanalyzer, nanoq, nanostat, nextclade, ngsbits, ngsderive, nonpareil, odgi, optitype, pairtools, pangolin, pbmarkdup, peddy, percolator, phantompeakqualtools, picard, porechop, preseq, prinseqplusplus, prokka, purple, pychopper, pycoqc, qc3C, qorts, qualimap, quast, rna_seqc, rockhopper, rsem, rseqc, salmon, sambamba, samblaster, samtools, sargasso, seqera_cli, sequali, seqwho, seqyclean, sexdeterrmine, sickle, skewer, slamdunk, snippy, snpeff, snpsplit, software_versions, somalier, sortmerna, sourmash, spaceranger, stacks, star, supernova, telseq, theta2, tophat, trimmomatic, truvari, umicollapse, umitools, varscan2, vcftools, vep, verifybamid, vg, whatshap, xengsort, xenome
-[2025-05-30 11:45:50,150] multiqc.report                                     [DEBUG  ]  Summary of files that were skipped by the search: |skipped_module_specific_max_filesize: 20|, |skipped_no_match: 20|
-[2025-05-30 11:45:50,154] multiqc.core.exec_modules                          [DEBUG  ]  Running module: custom_content
-[2025-05-30 11:45:50,165] multiqc.core.exec_modules                          [DEBUG  ]  No samples found: custom_content
-[2025-05-30 11:45:50,165] multiqc.core.exec_modules                          [DEBUG  ]  Running module: fastqc
-[2025-05-30 11:45:50,402] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 20 reports
-[2025-05-30 11:45:51,931] multiqc.plots.table_object                         [DEBUG  ]  Table key 'samples' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
-[2025-05-30 11:45:51,932] multiqc.plots.table_object                         [DEBUG  ]  Table key 'total_count' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
-[2025-05-30 11:45:51,932] multiqc.plots.table_object                         [DEBUG  ]  Table key 'total_percent' not found in data for 'fastqc_top_overrepresented_sequences_table'. Skipping. Check for possible typos between data keys and header keys
-[2025-05-30 11:45:52,195] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_fastqc.txt
-[2025-05-30 11:45:52,201] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_fastqc.json
-[2025-05-30 11:45:52,204] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.order_of_duplication_levels
-[2025-05-30 11:45:52,204] multiqc.base_module                                [DEBUG  ]  fastqc: deleting attribute self.status_colours
-[2025-05-30 11:45:52,204] multiqc.core.software_versions                     [DEBUG  ]  Reading software versions from config.software_versions
-[2025-05-30 11:45:52,211] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_software_versions.txt
-[2025-05-30 11:45:52,212] multiqc.core.write_results                         [DEBUG  ]  Rendering plots
-[2025-05-30 11:45:52,501] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.txt
-[2025-05-30 11:45:52,502] multiqc.report                                     [DEBUG  ]  Wrote data file multiqc_general_stats.json
-[2025-05-30 11:45:52,508] multiqc.core.write_results                         [DEBUG  ]  Exporting plot data to files
-[2025-05-30 11:45:52,508] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_counts_plot.txt
-[2025-05-30 11:45:52,512] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_sequence_quality_plot.txt
-[2025-05-30 11:45:52,515] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_quality_scores_plot.txt
-[2025-05-30 11:45:52,521] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Percentages.txt
-[2025-05-30 11:45:52,525] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_sequence_gc_content_plot_Counts.txt
-[2025-05-30 11:45:52,529] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_per_base_n_content_plot.txt
-[2025-05-30 11:45:52,531] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_sequence_duplication_levels_plot.txt
-[2025-05-30 11:45:52,533] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc_adapter_content_plot.txt
-[2025-05-30 11:45:52,534] multiqc.report                                     [DEBUG  ]  Wrote data file fastqc-status-check-heatmap.txt
-[2025-05-30 11:45:52,534] multiqc.core.write_results                         [DEBUG  ]  Moving data file from '/tmp/tmp9044e7q9/multiqc_data' to '/home/a_adegite/Genomics/projects/tb_genomics/QC_reports/multiqc_data'
-[2025-05-30 11:45:52,779] multiqc.core.write_results                         [INFO   ]  Data        : multiqc_data
-[2025-05-30 11:45:52,967] multiqc.core.write_results                         [DEBUG  ]  Compressing plot data
-[2025-05-30 11:45:53,414] multiqc.core.write_results                         [INFO   ]  Report      : multiqc_report.html
-[2025-05-30 11:45:53,414] multiqc.core.write_results                         [DEBUG  ]  Report HTML written to /home/a_adegite/Genomics/projects/tb_genomics/QC_reports/multiqc_report.html
+[2026-02-05 10:17:45,203] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/a_adegite/miniconda3/envs/tb_genomics/lib/python2.7/site-packages/multiqc-1.0.dev0-py2.7.egg/multiqc_config.yaml
+[2026-02-05 10:17:45,204] multiqc                                            [DEBUG  ]  No MultiQC config found: /home/a_adegite/.multiqc_config.yaml
+[2026-02-05 10:17:45,204] multiqc                                            [DEBUG  ]  No MultiQC config found: multiqc_config.yaml
+[2026-02-05 10:17:45,204] multiqc                                            [DEBUG  ]  Command used: /home/a_adegite/miniconda3/envs/tb_genomics/bin/multiqc .
+[2026-02-05 10:17:45,204] multiqc                                            [DEBUG  ]  Could not connect to multiqc.info for version check
+[2026-02-05 10:17:45,204] multiqc                                            [INFO   ]  This is MultiQC v1.0.dev0
+[2026-02-05 10:17:45,205] multiqc                                            [DEBUG  ]  Command     : /home/a_adegite/miniconda3/envs/tb_genomics/bin/multiqc .
+[2026-02-05 10:17:45,205] multiqc                                            [DEBUG  ]  Working dir : /home/a_adegite/Genomics/projects/tb_isoniazid_mutation_analysis/qc_reports/raw_reads
+[2026-02-05 10:17:45,205] multiqc                                            [INFO   ]  Template    : default
+[2026-02-05 10:17:45,205] multiqc                                            [INFO   ]  Searching '.'
+[2026-02-05 10:17:45,206] multiqc                                            [DEBUG  ]  Analysing modules: custom_content, peddy, methylQA, qualimap, preseq, quast, rseqc, busco, goleft_indexcov, snpeff, gatk, htseq, bcftools, featureCounts, picard, prokka, samblaster, samtools, bamtools, bismark, hicup, salmon, kallisto, slamdunk, star, tophat, bowtie2, bowtie1, cutadapt, trimmomatic, skewer, fastq_screen, fastqc, clusterflow
+[2026-02-05 10:17:45,207] multiqc                                            [DEBUG  ]  Using temporary directory for creating report: /tmp/tmpwvTKhh
+[2026-02-05 10:17:48,293] multiqc.modules.custom_content.custom_content      [DEBUG  ]  No custom content found
+[2026-02-05 10:17:48,372] multiqc.modules.peddy.peddy                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:48,403] multiqc.modules.methylQA.methylQA                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:48,424] multiqc.modules.qualimap.QM_BamQC                  [DEBUG  ]  Using default Qualimap thresholds: 1, 5, 10, 30, 50
+[2026-02-05 10:17:48,511] multiqc.modules.qualimap.qualimap                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:48,852] multiqc.modules.preseq.preseq                      [DEBUG  ]  Could not find any preseq data in ('.',)
+[2026-02-05 10:17:48,880] multiqc.modules.quast.quast                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:50,177] multiqc.modules.rseqc.rseqc                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:50,208] multiqc.modules.busco.busco                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:50,228] multiqc.modules.goleft_indexcov.goleft_indexcov    [DEBUG  ]  Did not find goleft indexcov outputs in ('.',)
+[2026-02-05 10:17:50,489] multiqc.modules.snpeff.snpeff                      [DEBUG  ]  Could not find any data in ('.',)
+[2026-02-05 10:17:50,873] multiqc.modules.gatk.gatk                          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:51,243] multiqc.modules.htseq.htseq                        [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:51,555] multiqc.modules.bcftools.bcftools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:51,575] multiqc.modules.featureCounts.feature_counts       [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:52,912] multiqc.modules.picard.picard                      [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:52,925] multiqc.modules.prokka.prokka                      [DEBUG  ]  Could not find any Prokka data in ('.',)
+[2026-02-05 10:17:53,048] multiqc.modules.samblaster.samblaster              [DEBUG  ]  Could not find any data in ('.',)
+[2026-02-05 10:17:53,586] multiqc.modules.samtools.samtools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:53,783] multiqc.modules.bamtools.bamtools                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:53,812] multiqc.modules.bismark.bismark                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:53,823] multiqc.modules.hicup.hicup                        [DEBUG  ]  Could not find any HiCUP data in ('.',)
+[2026-02-05 10:17:53,840] multiqc.modules.salmon.salmon                      [DEBUG  ]  Could not find any Salmon data in ('.',)
+[2026-02-05 10:17:53,962] multiqc.modules.kallisto.kallisto                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,018] multiqc.modules.slamdunk.slamdunk                  [DEBUG  ]  No slamdunk reports found.
+[2026-02-05 10:17:55,034] multiqc.modules.star.star                          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,046] multiqc.modules.tophat.tophat                      [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,203] multiqc.modules.bowtie2.bowtie2                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,328] multiqc.modules.bowtie1.bowtie1                    [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,448] multiqc.modules.cutadapt.cutadapt                  [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:55,567] multiqc.modules.trimmomatic.trimmomatic            [DEBUG  ]  Could not find any Trimmomatic data in ('.',)
+[2026-02-05 10:17:55,686] multiqc.modules.skewer.skewer                      [DEBUG  ]  Could not find any data in ('.',)
+[2026-02-05 10:17:55,703] multiqc.modules.fastq_screen.fastq_screen          [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:57,851] multiqc.modules.fastqc.fastqc                      [INFO   ]  Found 20 reports
+[2026-02-05 10:17:58,961] multiqc.modules.clusterflow.clusterflow            [DEBUG  ]  Could not find any reports in ('.',)
+[2026-02-05 10:17:58,965] multiqc                                            [INFO   ]  Report      : multiqc_report.html
+[2026-02-05 10:17:58,967] multiqc                                            [INFO   ]  Data        : multiqc_data
+[2026-02-05 10:17:58,968] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpwvTKhh/multiqc_data/multiqc_fastqc.txt' to '/home/a_adegite/Genomics/projects/tb_isoniazid_mutation_analysis/qc_reports/raw_reads/multiqc_data'
+[2026-02-05 10:17:58,968] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpwvTKhh/multiqc_data/multiqc_sources.txt' to '/home/a_adegite/Genomics/projects/tb_isoniazid_mutation_analysis/qc_reports/raw_reads/multiqc_data'
+[2026-02-05 10:17:58,968] multiqc                                            [DEBUG  ]  Moving data file from '/tmp/tmpwvTKhh/multiqc_data/multiqc_general_stats.txt' to '/home/a_adegite/Genomics/projects/tb_isoniazid_mutation_analysis/qc_reports/raw_reads/multiqc_data'
+[2026-02-05 10:17:59,201] multiqc                                            [INFO   ]  MultiQC complete
