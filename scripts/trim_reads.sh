@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+set -euo pipefail
+
 # Directory containing the raw paired-end FASTQ files
 input_path="../data/raw_reads/"
 
@@ -19,6 +21,7 @@ do
     -I "${input_path}${sample}_2.fastq.gz" \
     -o "${output_path}${sample}_1.fastq.gz" \
     -O "${output_path}${sample}_2.fastq.gz" \
+    --detect_adapter_for_pe  \
     --html "${output_path}${sample}_fastp.html" \
     --json "${output_path}${sample}_fastp.json"
 
