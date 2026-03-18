@@ -52,7 +52,8 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 4. **Read Mapping**
 5. **Sorting & Deduplication**
 6. **Variant Calling**
-7. **Mutation Analysis**
+7. **Variant Annotation**
+8. **Mutation Analysis**
 
 ---
 
@@ -65,6 +66,7 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - [BWA](https://github.com/bwa-mem2/bwa-mem2)
 - [Samtools](http://www.htslib.org/)
 - [BCFtools](http://www.htslib.org/doc/bcftools.html)
+- [SnpEff](https://pcingola.github.io/SnpEff/)
 
 ---
 
