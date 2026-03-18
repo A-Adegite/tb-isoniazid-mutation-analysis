@@ -67,6 +67,8 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - [Samtools](http://www.htslib.org/)
 - [BCFtools](http://www.htslib.org/doc/bcftools.html)
 - [SnpEff](https://pcingola.github.io/SnpEff/)
+- [Pandas](https://pandas.pydata.org/)
+- [Openpyxl](https://pypi.org/project/openpyxl/)
 
 ---
 
