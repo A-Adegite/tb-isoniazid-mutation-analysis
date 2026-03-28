@@ -12,7 +12,7 @@ snps_output_excel = "../annotation/snps/all_samples_drug_resistance.xlsx"
 indels_output_excel = "../annotation/indels/all_samples_drug_resistance.xlsx"
 
 # Drug resistance genes regex
-drug_genes_pattern = re.compile(r"katG|inhA|ahpC|ndh|kasA", re.IGNORECASE)
+drug_genes_pattern = re.compile(r"katG|inhA|ahpC|ndh|kasA|fabG1|furA", re.IGNORECASE)
 
 def filter_drug_resistance(input_excel, output_excel):
     xls = pd.ExcelFile(input_excel)
