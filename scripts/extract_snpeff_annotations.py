@@ -34,10 +34,16 @@ def parse_vcf_to_df(vcf_file, sample_name):
                 effect = ann_parts[1] if len(ann_parts) > 1 else ""
                 impact = ann_parts[2] if len(ann_parts) > 2 else ""
                 gene = ann_parts[3] if len(ann_parts) > 3 else ""
+                feature_type = ann_parts[5] if len(ann_parts) > 5 else ""
+                transcript_biotype = ann_parts[7] if len(ann_parts) > 7 else ""
+                hgvs_c = ann_parts[9] if len(ann_parts) > 9 else ""
                 hgvs_p = ann_parts[10] if len(ann_parts) > 10 else ""
-                rows.append([sample_name, chrom, pos, ref, alt, gene, effect, impact, hgvs_p])
 
-    df = pd.DataFrame(rows, columns=["Sample", "Chrom", "Pos", "Ref", "Alt", "Gene", "Effect", "Impact", "HGVS_p"])
+                rows.append([sample_name, chrom, pos, ref, alt, gene, effect, impact, feature_type, transcript_biotype, hgvs_c, hgvs_p])
+
+    df = pd.DataFrame(rows, columns=["Sample", "Chrom", "Pos", "Ref", "Alt", 
+                                     "Gene", "Effect", "Impact", "Feature_Type", 
+                                     "Transcript_Biotype", "HGVS_c","HGVS_p"])
     return df
 
 def process_vcfs_to_excel(input_path, output_excel):
