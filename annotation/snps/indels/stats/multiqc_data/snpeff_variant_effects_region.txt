@@ -1,0 +1,12 @@
+Sample	Splice Site Region	Intergenic	Exon	Downstream	Upstream
+ERR8774458_indels_snpEff_genes	1.0	23.0	60.0	335.0	400.0
+ERR8774464_indels_snpEff_genes	1.0	20.0	60.0	298.0	375.0
+ERR8774480_indels_snpEff_genes	1.0	23.0	61.0	384.0	380.0
+ERR8774482_indels_snpEff_genes	1.0	23.0	59.0	358.0	383.0
+ERR8774487_indels_snpEff_genes	1.0	21.0	52.0	320.0	357.0
+ERR8774512_indels_snpEff_genes	1.0	22.0	68.0	376.0	412.0
+ERR8774514_indels_snpEff_genes	1.0	22.0	59.0	345.0	383.0
+ERR8774522_indels_snpEff_genes	1.0	21.0	62.0	336.0	384.0
+ERR8774524_indels_snpEff_genes	1.0	20.0	58.0	324.0	361.0
+ERR8774534_indels_snpEff_genes	1.0	22.0	56.0	321.0	368.0
+joint_variants_indels_snpEff_genes	1.0	35.0	159.0	794.0	819.0
