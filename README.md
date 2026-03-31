@@ -7,35 +7,48 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
 ## 🗂️ Project Structure
 ```
 .
-├── README.md                    # Project overview and usage instructions
-├── .gitignore                   # Specifies intentionally untracked files
-├── data/                        # Input data (not uploaded)
-│   ├── raw_reads/               # Raw FASTQ files
-│   ├── repaired_reads/          # Fixed/validated reads
-│   ├── trimmed_reads/           # Cleaned reads after adapter/quality trimming
-│   └── reference/               # Reference genome and index files
+├── README.md                     # Project overview and usage instructions
+├── .gitignore
 │
-├── mapping/                     # Read alignment outputs
-│   ├── bam_sorted/              # Sorted BAM files
-│   ├── bam_dedup/               # Deduplicated BAM files
-│   └── bam_stats/               # Mapping and alignment statistics
+├── data/                         # Input data (not versioned)
+│   ├── raw_reads/                # Raw FASTQ files
+│   ├── repaired_reads/           # Repaired/validated reads
+│   ├── trimmed_reads/            # Quality and adapter-trimmed reads
+│   └── reference/                # Reference genome and index files
 │
-├── qc_reports/                  # FastQC reports for quality control
+├── qc_reports/                   # Quality control reports (FastQC/MultiQC)
 │   ├── raw_reads/
+│   │   └── multiqc_data/         # Aggregated QC metrics (raw reads)
 │   └── trimmed_reads/
+│       └── multiqc_data/         # Aggregated QC metrics (trimmed reads)
 │
-├── scripts/                     # Bash scripts for each pipeline step
-│   ├── download_raw_reads.sh
-│   ├── trim_reads.sh
-│   ├── repair_reads.sh
-│   ├── map_reads.sh  
-│   ├── sort_dedup.sh
-│   ├── variant_call.sh
-│   └── ...
+├── mapping/                      # Read alignment outputs
+│   ├── bam_sorted/               # Sorted BAM files
+│   ├── bam_dedup/                # Deduplicated BAM files
+│   └── bam_stats/                # Alignment statistics
 │
-├── variant_calls/               # VCF and BCF files from variant calling
+├── variant_calls/                # Variant calling outputs
+│   ├── raw/                      # Raw variant calls (VCF/BCF)
+│   ├── filtered/                 # Filtered high-confidence variants
+│   ├── snps/                     # SNP-specific results
+│   ├── indels/                   # Indel-specific results
+│   └── stats/                    # Variant calling statistics
 │
-└── results/                     # Summary tables, plots, or mutation annotations
+├── annotation/                   # Variant annotation results (SnpEff)
+│   ├── snps/
+│   │   └── stats/
+│   │       └── multiqc_data/     # MultiQC reports for SNP annotation
+│   └── indels/
+│       └── stats/
+│           └── multiqc_data/     # MultiQC reports for indel annotation
+│
+├── tbprofiler_results/           # TBProfiler outputs
+│   └── results/                      # Processed BAM files used by TBProfiler
+│       └── collated_output/      # Combined TBProfiler summary results
+│
+├── scripts/                      #Scripts for each pipeline step (bash/python)
+│
+└── results/                      # Final summaries, plots, reports
 ```
 
 
@@ -70,6 +83,7 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - [Python](https://www.python.org/)
 - [Pandas](https://pandas.pydata.org/)
 - [Openpyxl](https://pypi.org/project/openpyxl/)
+- [TBProfiler](https://github.com/jodyphelan/TBProfiler)
 
 ---
 
