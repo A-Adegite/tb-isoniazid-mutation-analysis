@@ -1,0 +1,12 @@
+Sample	Low	Moderate	High	Modifier
+ERR8774458_indels_snpEff_genes	1.0	18.0	41.0	759.0
+ERR8774464_indels_snpEff_genes	1.0	19.0	39.0	695.0
+ERR8774480_indels_snpEff_genes	1.0	22.0	38.0	788.0
+ERR8774482_indels_snpEff_genes	1.0	17.0	41.0	765.0
+ERR8774487_indels_snpEff_genes	1.0	11.0	40.0	699.0
+ERR8774512_indels_snpEff_genes	1.0	27.0	40.0	811.0
+ERR8774514_indels_snpEff_genes	1.0	17.0	40.0	752.0
+ERR8774522_indels_snpEff_genes	1.0	22.0	39.0	742.0
+ERR8774524_indels_snpEff_genes	1.0	18.0	39.0	706.0
+ERR8774534_indels_snpEff_genes	1.0	17.0	38.0	712.0
+joint_variants_indels_snpEff_genes	1.0	84.0	72.0	1651.0
