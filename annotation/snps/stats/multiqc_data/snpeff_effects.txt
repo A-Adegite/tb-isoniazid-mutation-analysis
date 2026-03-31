@@ -1,0 +1,12 @@
+Sample	Downstream Gene Variant	Upstream Gene Variant	Missense Variant	Synonymous Variant	Intergenic Region	Non Coding Transcript Exon Variant	Stop Gained	Splice Region Variant	Start Lost	Stop Lost
+ERR8774458_snps_snpEff_genes	3632.0	3601.0	399.0	281.0	86.0	17.0	8.0	1.0	1.0	1.0
+ERR8774464_snps_snpEff_genes	3747.0	3666.0	421.0	302.0	79.0	20.0	7.0	1.0	1.0	1.0
+ERR8774480_snps_snpEff_genes	3898.0	3631.0	408.0	295.0	88.0	19.0	8.0	1.0	1.0	1.0
+ERR8774482_snps_snpEff_genes	3885.0	3652.0	403.0	298.0	90.0	18.0	8.0	1.0	1.0	1.0
+ERR8774487_snps_snpEff_genes	3466.0	3415.0	386.0	263.0	70.0	20.0	7.0	1.0	1.0	1.0
+ERR8774512_snps_snpEff_genes	3651.0	3542.0	399.0	291.0	78.0	20.0	7.0	1.0	1.0	1.0
+ERR8774514_snps_snpEff_genes	3683.0	3617.0	414.0	292.0	76.0	19.0	7.0	1.0	1.0	1.0
+ERR8774522_snps_snpEff_genes	3681.0	3631.0	415.0	295.0	77.0	19.0	7.0	1.0	1.0	1.0
+ERR8774524_snps_snpEff_genes	3739.0	3707.0	428.0	300.0	75.0	20.0	7.0	1.0	1.0	1.0
+ERR8774534_snps_snpEff_genes	3825.0	3787.0	436.0	307.0	77.0	20.0	8.0	1.0	1.0	1.0
+joint_variants_snps_snpEff_genes	6102.0	5778.0	681.0	460.0	142.0	20.0	12.0	1.0	1.0	1.0

@@ -1,0 +1,2 @@
+Sample	SnpEff
+SnpEff	5.4c
