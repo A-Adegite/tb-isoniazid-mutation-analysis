@@ -43,7 +43,7 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
 │           └── multiqc_data/     # MultiQC reports for indel annotation
 │
 ├── tbprofiler_results/           # TBProfiler outputs
-│   └── results/                      # Processed BAM files used by TBProfiler
+│   └── results/                  
 │       └── collated_output/      # Combined TBProfiler summary results
 │
 ├── scripts/                      #Scripts for each pipeline step (bash/python)
