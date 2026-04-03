@@ -1,0 +1,11 @@
+Sample,Gene,POS (Chromosome),HGVS_c,HGVS_p,Type,WHO,Interpretation,Resistance_Level,Comment
+ERR8774524,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774534,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774482,inhA,1673425.0,c.-777C>T,-,upstream_gene_variant,Assoc w R,Resistant,Low,"Low-level resistance (multiple, genetically linked low-level resistance mutations are additive and confer high-level resistance)"
+ERR8774480,inhA,1673426.0,c.-777C>T,-,upstream_gene_variant,Assoc w R,Resistant,Low,"Low-level resistance (multiple, genetically linked low-level resistance mutations are additive and confer high-level resistance)"
+ERR8774458,inhA,1673393.0,c.-809G>C,-,upstream_gene_variant,Uncertain Significance,Uncertain,Unknown,Variant of uncertain significance; insufficient evidence for resistance
+ERR8774512,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774522,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774514,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774464,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
+ERR8774487,katG,2155168.0,c.944G>C,p.Ser315Thr,missense_variant,Assoc w R,Resistant,High,High-level resistance
