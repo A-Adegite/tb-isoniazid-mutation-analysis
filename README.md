@@ -11,9 +11,7 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
   
 ## 📄 Full Report
 
-A detailed report including methodology, variant statistics, and biological interpretation is available here:  
-
-[Read the Full Report](ADD_YOUR_LINK_HERE)
+A detailed report including methodology, variant statistics, and biological interpretation is available here: [Read the Full Report](ADD_YOUR_LINK_HERE)
 
 ---
 
