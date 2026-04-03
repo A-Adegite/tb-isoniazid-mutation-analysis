@@ -13,7 +13,6 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
 
 A detailed report including methodology, variant statistics, and biological interpretation is available here: [Read the Full Report](ADD_YOUR_LINK_HERE)
 
----
 
 ## 🗂️ Project Structure
 ```
@@ -63,8 +62,6 @@ A detailed report including methodology, variant statistics, and biological inte
 ```
 
 
----
-
 ## 🔧 Pipeline Overview
 
 The pipeline processes paired-end FASTQ files to identify variants associated with INH resistance in *M. tuberculosis*:
@@ -77,8 +74,6 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 6. **Variant Calling**
 7. **Variant Annotation**
 8. **Mutation Analysis**
-
----
 
 ## 🛠️ Tools & Dependencies
 
@@ -95,8 +90,6 @@ The pipeline processes paired-end FASTQ files to identify variants associated wi
 - [Pandas](https://pandas.pydata.org/)
 - [Openpyxl](https://pypi.org/project/openpyxl/)
 - [TBProfiler](https://github.com/jodyphelan/TBProfiler)
-
----
 
 ## 📦 Environment Setup
 
@@ -150,8 +143,6 @@ bash scripts/variant_call.sh
 
 > ⚠️ Ensure that all required tools are installed and accessible in your system's `$PATH`.
 
----
-
 ## 📦 Data Access
 
 Due to GitHub file size restrictions, input FASTQ files and intermediate outputs are **not included** in this repository.
@@ -160,8 +151,6 @@ To obtain the required data:
 
 - Run `scripts/download_data.sh` which fetches all required files from public repositories, or  
 - Manually download them using the accession numbers or URLs referenced inside the script
-
----
 
 ## 📚 Acknowledgment
 
