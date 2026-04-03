@@ -1,6 +1,19 @@
-# Searching for Mutations Leading to Isoniazid Resistance in *Mycobacterium tuberculosis*
+# A Genomic Pipeline for Identifying Isoniazid Resistance Mutations in *Mycobacterium tuberculosis*
 
 This project explores the genomic mutations associated with Isoniazid (INH) resistance  in *Mycobacterium tuberculosis* using next-generation sequencing (NGS) data. The workflow includes data acquisition, quality control, read preprocessing, read mapping, variant calling, and mutation analysis.
+
+## 📊 Key Findings 
+- The most prevalent mutation identified was **katG c.944G>C (p.Ser315Thr)**, a well-characterized variant associated with **high-level isoniazid resistance**  
+- Mutations in the **inhA promoter region** were linked to **low-level resistance**, supporting their role in reduced drug susceptibility  
+- A mutation (**c.-809G>C**) of **uncertain significance** was detected, highlighting the presence of variants requiring further investigation  
+- Strong concordance was observed between the **WHO resistance catalogue** and **TBProfiler predictions**, validating the reliability of the pipeline  
+- Resistance in the dataset was predominantly driven by **katG mutations**, consistent with **globally reported resistance patterns**
+  
+## 📄 Full Report
+
+A detailed report including methodology, variant statistics, and biological interpretation is available here:  
+
+[Read the Full Report](ADD_YOUR_LINK_HERE)
 
 ---
 
