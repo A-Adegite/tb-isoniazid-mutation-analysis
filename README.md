@@ -59,6 +59,11 @@ A detailed report including methodology, variant statistics, and biological inte
 ├── scripts/                      #Scripts for each pipeline step (bash/python)
 │
 └── results/                      # Final summaries, plots, reports
+    ├── figures/                  # Plots and visualizations
+    ├── tables/                   # Processed result tables
+    ├── report.md                 # Final written report
+    └── visualization.ipynb       # Notebook for plotting and analysis
+
 ```
 
 
