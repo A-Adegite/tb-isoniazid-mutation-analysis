@@ -26,7 +26,7 @@ A total of 10 resistance-associated mutations were identified across the 10 _Myc
 <p align="center">
   <img src="https://github.com/a-adegite/tb-isoniazid-mutation-analysis/blob/main/results/figures/mutation_landscape.png?raw=true"
        alt="Mutation Landscape"
-       width="500">
+       width="600">
 </p>
 
 **Figure 1. Mutation landscape and resistance profiles of _Mycobacterium tuberculosis_ isolates.**
