@@ -151,10 +151,10 @@ bash scripts/filter_variants.sh
 # Step 10: Annotate variants (SnpEff)
 bash scripts/annotate_variants.sh
 
-# Step 11. Extract annotation tables
+# Step 11: Extract annotation tables
 python3 scripts/extract_snpeff_annotations.py
 
-# Step 12. Drug resistance filtering (final interpretation)
+# Step 12: Drug resistance filtering (final interpretation)
 python3 scripts/filter_drug_resistance.py
 
 # Step 13: TBProfiler resistance analysis
