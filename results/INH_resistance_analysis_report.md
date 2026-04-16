@@ -23,7 +23,11 @@ Drug resistance prediction was performed using TBProfiler based on known resista
 
 A total of 10 resistance-associated mutations were identified across the 10 _Mycobacterium tuberculosis_ isolates analysed. The mutation landscape showed clear dominance of a small number of canonical resistance variants (Figure 1A-D).
 
-**![](results/figures/mutation_landscape.png)**
+<p align="center">
+  <img src="https://github.com/a-adegite/tb-isoniazid-mutation-analysis/blob/main/results/figures/mutation_landscape.png?raw=true"
+       alt="Mutation Landscape"
+       width="500">
+</p>
 
 **Figure 1. Mutation landscape and resistance profiles of _Mycobacterium tuberculosis_ isolates.**
 
@@ -57,7 +61,7 @@ This study presents a reproducible genomic pipeline for identifying isoniazid re
 
 All scripts, workflows, and results are available at: <https://github.com/a-adegite/tb-isoniazid-mutation-analysis>
 
-**References**
+<p align="center"><strong>References</strong></p>
 
 Abrahams, K. A., & Besra, G. S. (2018). Mycobacterial cell wall biosynthesis: a multifaceted antibiotic target. _Parasitology_, _145_(2), 116-133. <https://doi.org/10.1017/S0031182016002377>
 
