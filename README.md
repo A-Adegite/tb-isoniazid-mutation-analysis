@@ -160,7 +160,6 @@ python3 scripts/filter_drug_resistance.py
 # Step 13: TBProfiler resistance analysis
 bash scripts/tbprofiler.sh
 
-
 ```
 
 > ⚠️ Ensure that all required tools are installed and accessible in your system's `$PATH`.
