@@ -11,7 +11,7 @@ This project explores the genomic mutations associated with Isoniazid (INH) resi
   
 ## 📄 Full Report
 
-A detailed report including methodology, variant statistics, and biological interpretation is available here: [Read the Full Report](https://raw.githubusercontent.com/a-adegite/tb-isoniazid-mutation-analysis/refs/heads/main/results/INH_resistance_analysis_report.md)
+A detailed report including methodology, variant statistics, and biological interpretation is available here: [Read the Full Report](results/INH_resistance_analysis_report.md)
 
 
 ## 🗂️ Project Structure
