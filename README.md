@@ -103,7 +103,7 @@ This project uses a Conda environment
 ### 1. Create the Conda environment:
 
 ```bash
-conda env create -f environment.yml
+conda create --name tb_genomics
 ```
 
 ### 2. Activate the environment:
@@ -136,14 +136,31 @@ bash scripts/trim_reads.sh
 # Step 5: Repair disordered reads
 bash scripts/repair_reads.sh
 
-# Step 5: Map reads to reference genome using BWA-MEM2
+# Step 6: Map reads to reference genome using BWA-MEM2
 bash scripts/map_reads.sh
 
-# Step 6: Sort and deduplicate BAM files using Samtools
+# Step 7: Sort and deduplicate BAM files using Samtools
 bash scripts/sort_dedup.sh
 
-# Step 7: Call variants using BCFtools
+# Step 8: Call variants using BCFtools
 bash scripts/variant_call.sh
+
+# Step 9: Filter low-quality variants
+bash scripts/filter_variants.sh
+
+# Step 10: Annotate variants (SnpEff)
+bash scripts/annotate_variants.sh
+
+# Step 11. Extract annotation tables
+python3 scripts/extract_snpeff_annotations.py
+
+# Step 12. Drug resistance filtering (final interpretation)
+python3 scripts/filter_drug_resistance.py
+
+# Step 13: TBProfiler resistance analysis
+bash scripts/tbprofiler.sh
+
+
 ```
 
 > ⚠️ Ensure that all required tools are installed and accessible in your system's `$PATH`.
